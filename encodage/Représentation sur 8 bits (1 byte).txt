@@ -1,0 +1,49 @@
+Représentation sur 8 bits (1 byte)
+
+non signé(décimal, 3 chiffres) : 150  => pas de + ou de -, seulement des chiffres..
+
+base 10
+
+chiffre a droite poids puissance 1, deuxième chiffre poids puissance 10, 3eme poids puissance 100
+019 ==> 0 = x100, 1 = x10, 9 = x1
+
+chiffre de poids fort = 0 
+chiffre de poids faible = 9
+
+00101011 
+   =
+x28, x64, x32, x16, x8, x4, x2, x1
+   =
+  43
+
+max_int = 999    max dans décimal 
+
+100 000 000 = 25 = 2^8
+
+max_int = 2^8-1 = 255    max dans binaire
+
+
+débordements d'entier
+ 798
++431
+-----     ===> supprime le 1
+1229    
+
+ 798
+x431
+-----  ====> supprime 343  
+343938
+
+343938 = 343 x 1000 + 938 --> reste 1
+
+
+
+19 + 255 = 19 + 256-1 = 256 + 18 ==> supprime 256
+19 + 253 = 256 - 3 + 19 = 256 + 16 ===> supprime 256
+
+
+abcdefgh ==>
+
+==> n ou n-256
+si a = 0 ou si a = 1
+
