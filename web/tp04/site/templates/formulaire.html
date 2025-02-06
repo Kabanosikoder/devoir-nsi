@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Identité</title>
+    <link rel="stylesheet" type="text/css" href="/site/static//css/style.css">
+</head>
+<body>
+    <h1>Saisie de l'identité</h1>
+    
+    <form action="{{ url_for('traitement') }}" method="GET">
+        <label for="id_nom">Nom :</label>
+        <input type="text" name="nom" id="id_nom">
+        
+        <label for="id_prenom">Prénom :</label>
+        <input type="text" name="prenom" id="id_prenom">
+        
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
