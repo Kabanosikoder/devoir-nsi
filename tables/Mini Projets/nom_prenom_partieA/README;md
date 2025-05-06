@@ -1,16 +1,7 @@
-# Fusion de Tables d'Oiseaux
-
-Ce programme fusionne des données provenant de plusieurs fichiers CSV contenant des informations sur les oiseaux. Il lit les données, effectue une jointure sur les noms des oiseaux, et génère des fichiers CSV avec les résultats fusionnés.
-
 ## Prérequis
 
 - Python 3.x
 
-## Installation
-
-1. Clonez le dépôt ou téléchargez les fichiers nécessaires.
-2. Assurez-vous d'avoir Python installé sur votre machine.
-
 ## Utilisation
 
-1. Placez les fichiers CSV (`Oiseaux1.csv`, `Oiseaux2.csv`, `couleur2.csv`) dans le même répertoire que le script [oiseaux.py]
+1. Placez les fichiers CSV (`Oiseaux1.csv`, `Oiseaux2.csv`, `couleur2.csv`) dans le même répertoire que le script
