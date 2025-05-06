@@ -12,11 +12,6 @@ Ce projet consiste à importer, traiter et analyser des données de prénoms d'e
 4. Affichage des 10 prénoms les plus fréquents avec leurs occurrences pour les années 2003 et 2004.
 5. Création d'une table de jointure pour les prénoms et somme des occurrences.
 
-### Installation
-
-1. Assurez-vous d'avoir Python 3.x installé sur votre machine.
-2. Clonez le dépôt ou téléchargez les fichiers nécessaires.
-
 ### Utilisation
 
 1. Placez les fichiers CSV (`Prenoms2003.csv`, `Prenoms2004.csv`) dans le même répertoire que le script [prenomC.py]
